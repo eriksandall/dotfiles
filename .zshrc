@@ -1,5 +1,7 @@
 ## Use a long listing format ##
-alias ll='ls -la'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 
 ## Colorize zsh ##
 export CLICOLOR=1
