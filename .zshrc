@@ -6,7 +6,7 @@ alias l='ls -CF'
 ## Colorize zsh ##
 export CLICOLOR=1
 export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33'
-PS1='%F{green}%n@%m%f %F{blue}%1~%f %F{magenta}%#%f '
+PS1='%F{green}%n@%m%f %F{blue}%1~%f %F{white}%#%f '
 
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
