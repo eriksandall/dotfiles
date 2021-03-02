@@ -20,3 +20,12 @@ alias h='history'
 PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
 export PATH
 alias python='python3.8'
+
+# Use a history file
+export HISTFILE=~/.zsh_history
+export HISTFILESIZE=1000
+export HISTSIZE=2000
+setopt INC_APPEND_HISTORY
+export HISTTIMEFORMAT="[%F %T] "
+setopt EXTENDED_HISTORY
+
