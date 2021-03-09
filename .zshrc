@@ -29,3 +29,6 @@ setopt INC_APPEND_HISTORY
 export HISTTIMEFORMAT="[%F %T] "
 setopt EXTENDED_HISTORY
 
+# Custom commnand to download an image and set it as desktop background
+alias unsplash='/bin/unsplash.sh'
+
